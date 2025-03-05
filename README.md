@@ -1,23 +1,29 @@
-# 🔒 Password Generator
+# 🔒 Password Generator & Strength Checker
 
-Welcome to the **Password Generator** project! 🎉 This tool allows users to create secure, customizable passwords effortlessly. Built with **Streamlit**, it offers an intuitive and interactive interface to ensure you get the password best suited for your needs.
+This project combines a **Password Generator** with a **Strength Checker**, built using **Streamlit**. It allows users to generate strong, secure passwords with customizable options or evaluate the strength of their existing passwords. The app is intuitive, interactive, and ideal for anyone aiming to enhance their digital security.
+
+---
 
 ## 🚀 Features
 
-- **Interactive Interface**: Simple and user-friendly design using Streamlit.
-- **Customizable Options**:
-  - Define password length (6 to 32 characters).
-  - Include or exclude digits.
-  - Include or exclude special characters.
-- **Real-Time Output**: Generates the password instantly on a button click.
-- **Secure**: Uses a robust combination of letters, numbers, and special characters.
+### **Password Generator**
+- Create custom passwords by:
+  - Defining the length (6-32 characters).
+  - Including or excluding digits and special characters.
+- Instantly generate secure passwords with one click.
+
+### **Password Strength Checker**
+- Analyze the strength of any password (manual input or generated):
+  - Categories: `Weak`, `Medium`, and `Strong`.
+  - Visual feedback with a progress bar and percentage score.
+- Detects attributes like length, digits, special characters, and case sensitivity.
 
 ---
 
 ## 🛠️ Installation
 
-Follow these steps to get the Password Generator up and running:
+Follow these steps to run the app locally:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/areeb1777/password-generator.git
+   git clone https://github.com/areeb1777/password-generator-strength-checker.git
